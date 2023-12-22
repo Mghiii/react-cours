@@ -1,0 +1,91 @@
+/* Home.css */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.home-container label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+  display: block;
+}
+
+.home-container input[type="text"],
+.home-container input[type="number"] {
+  width: 50%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.home-container input[type="text"]:focus,
+.home-container input[type="number"]:focus {
+  outline: none;
+  border-color: #2196f3;
+  box-shadow: 0 0 5px rgba(33, 150, 243, 0.5);
+}
+
+.home-container button {
+  padding: 10px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.home-container button:hover {
+  background-color: #45a049;
+}
+
+.product-table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.product-table th,
+.product-table td {
+  align-items: center;
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.product-table .delete,
+.product-table .edit {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-table .delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.product-table .edit {
+  background-color: #2196f3;
+  color: white;
+}
+
+.product-table .delete:hover,
+.product-table .edit:hover {
+  background-color: #d32f2f;
+}
