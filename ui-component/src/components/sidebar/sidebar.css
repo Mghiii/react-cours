@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  width: 200px;
+  color: #333;
+  border-right: 2px solid #333;
+  height: calc(100vh - 130px);
+
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  margin-bottom: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.links li:hover {
+  color: rgb(168, 168, 168);
+}

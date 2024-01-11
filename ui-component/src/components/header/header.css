@@ -1,0 +1,33 @@
+.header {
+  background-color: #ffffff;
+  color: #333;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  border-bottom: 3px solid #333;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.list li {
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.list li:hover {
+  color: rgb(168, 168, 168);
+}
