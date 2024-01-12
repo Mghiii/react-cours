@@ -1,0 +1,93 @@
+/* src/components/Posts.css */
+
+.posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.post-card {
+  width: calc(25% - 20px); /* Adjust the width and gap as needed */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.post-card:hover {
+  transform: scale(1.05);
+}
+
+.post-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.post-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.edit {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.delete {
+  background-color: #ff0202;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.delete:hover {
+  background-color: #a04545;
+}
+.edit:hover {
+  background-color: #45a049;
+}
+
+.post-form {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.post-form h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.post-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.post-form button {
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.post-form button:hover {
+  background-color: #0b7dda;
+}
